@@ -39,3 +39,7 @@ Por exemplo, um `IsentoIRDecorator` poderia aumentar a rentabilidade líquida do
 **Em nenhum momento modificamos a classe original `FundoInvestimentoSimples`.** Estamos apenas compondo objetos de forma dinâmica, respeitando o princípio de extensão sem modificação. Assim, o objeto final pode se comportar como uma `FundoInvestimentoIsentoTaxaAdm`, sem que essa classe realmente exista no código.
 
 Esse padrão é extremamente poderoso e versátil, principalmente quando se busca flexibilidade na adição de funcionalidades. Ele evita a criação de múltiplas subclasses e promove uma arquitetura mais limpa e extensível.
+
+Dessa forma, foi possivel implementar Fundos Imobiliarios diversos, com ou sem taxas:
+![image](https://github.com/user-attachments/assets/5ef627e5-d2d0-4f6e-8ff8-55b38630296c)
+
